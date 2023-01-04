@@ -1,0 +1,773 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.logo1 {
+    width: 420px;
+    height: 1000px;
+    background-image: url(https://jevelin.shufflehound.com/single-product/wp-content/uploads/sites/29/2018/03/Ellipse-974-copy-3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 1;
+    top: -120px;
+    left: -140px
+}
+
+.logo2 {
+    width: 1000px;
+    height: 1000px;
+    background-image: url(../assets/Ellipse-974-copy-4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 140px;
+    /* bottom: -160px; */
+    right: -280px;
+}
+
+header .top .icon {
+    z-index: 1;
+}
+
+header .top {
+    position: relative;
+    height: 100vh;
+    background-color: #2b2b2b;
+
+}
+
+
+header .container {
+    width: 100% !important;
+    min-width: 100% !important;
+    max-width: 100% !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+header .row {
+    padding: 35px;
+    font-size: 25px;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+a:hover {
+    color: darkgray;
+}
+
+
+header .container .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    color: white;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: 0 auto;
+}
+
+header nav ul li {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px;
+}
+
+header .wishlist .buybutton a {
+    background-color: #7d1eff;
+    color: white;
+    font-weight: 700;
+    box-sizing: border-box;
+    border-radius: 25px;
+    font-size: 20px;
+    padding: 15px 35px;
+    text-decoration: none;
+
+}
+
+header .wishlist .buybutton a:hover {
+    background-color: #994fff;
+}
+
+.wishlist {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    color: white;
+}
+
+header .wishlist .shoppingicon i {
+    margin-right: 45px;
+    font-size: 20px;
+    color: #994fff;
+    align-items: center;
+
+}
+
+.wishlist .shoppingicon i::after {
+    content: '0';
+    display: inline-block;
+    background-color: #7d1eff;
+    color: white;
+    width: 16px;
+    height: 16px;
+    font-size: 10px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 50%;
+    padding-top: 3px;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+header .bottom {
+    position: relative;
+}
+
+header .bottom .watch-backgraund .watches #watch {
+    position: absolute;
+    bottom: 100px;
+    right: 150px;
+    width: 480px;
+    z-index: 1;
+
+}
+
+header .bottom .texttop {
+    position: absolute;
+    bottom: 350px;
+    left: 250px;
+    color: white;
+    z-index: 1;
+}
+
+header .bottom .texttop h1 {
+    font-weight: 700;
+    font-size: 92px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    white-space: nowrap;
+    text-align: left;
+    line-height: 96px;
+}
+
+header .bottom .texttop #smart {
+    font-weight: 700;
+    font-size: 92px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    white-space: nowrap;
+    text-align: left;
+    line-height: 96px;
+}
+
+header .bottom .texttop #watch {
+    color: rgb(153, 79, 255);
+    white-space: nowrap;
+    text-align: left;
+    line-height: 96px;
+    font-weight: 700;
+    font-size: 92px;
+}
+
+header .bottom .textbuttom {
+    position: absolute;
+    z-index: 1;
+    bottom: 230px;
+    color: white;
+    left: 250px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header .bottom .textbuttom h4 {
+
+    position: relative;
+    top: 20px;
+}
+
+header .bottom .textbuttom p {
+    color: #B2AABF;
+    line-height: 32px;
+    font-weight: 400;
+    font-size: 13px;
+    position: relative;
+    top: 45px;
+
+}
+body{
+    overflow-x: hidden;
+}
+header .selector {
+    display: block;
+   position: fixed;
+   top: 200px;
+   right: 20px;
+   
+   list-style: none;
+   font-size: 40px;
+   border: 12px black;
+   background-color: white;
+   text-align: center;
+   border-radius: 7px;
+   border: 2px solid white;
+   margin-bottom: 20px;
+   }
+   
+   header .selector i {
+       font-size: 33px;
+       color: #9396a5 !important;
+       padding: 10px;
+       border-bottom: 3px solid #f1f3fc;
+   }
+
+   body .selector2{
+    position: fixed;
+    bottom: 40px;
+    right: 15px;
+padding: 10px 20px;
+    list-style: none;
+    font-size: 40px;
+    border: 1px solid rgb(249, 249, 249)5, 48, 48;
+    background-color: white;
+    text-align: center;
+    border-radius: 60px;
+}
+body .selector2 i{
+    color:#cecece;
+   }
+   body .selector2:hover{
+    background-color: #7d1eff;
+   }
+#Gallery {
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/assets/watchback.jpg);
+ 
+    overflow: hidden;
+}
+
+section .container {
+    padding: 200px;
+    text-align: center;
+}
+section .colorswatches .container {
+    height: 10px;
+}
+
+section .container .watchtext h2 {
+    color: #B2AABF;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+section .container .watchtext span {
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 900;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #3f3849;
+}
+section .container .watchtext #colortext {
+    color: #7d1eff !important;
+}
+section .container .watchtext p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 38px;
+    font-size: 18px;
+    color: #3f3849;
+    padding: 40px;
+}
+
+section .container .watchimage {
+
+    display: flex;
+    justify-content: center;
+}
+
+section .container .watchimage img {
+    margin-top: 50px;
+    width: 400px;
+    padding: 10px;
+}
+
+section .container .watchimage .blackw1 img:hover{
+    zoom: 110%;
+}
+section .container .watchimage .blackw2 img:hover{
+    zoom: 110%;
+}
+section .container .watchimage .blackw3 img:hover{
+    zoom: 110%;
+    
+}
+section .container .phonewatch .phoneimage img{
+    position: relative;
+    right: 250px;
+}
+section .container .phonewatch .phonetext{
+    position: relative;
+    bottom:  660px;
+    left: 300px;
+    z-index: 4;
+}
+section .container .phonewatch .phonetext .title h3{
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #aca3ba;
+    padding-right: 290px;
+}
+section .container .phonewatch .phonetext .title h1{
+    line-height: 60px;
+    font-size: 48px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: -5px;
+    padding-right: 45px;
+    color: #3f3849;
+}
+
+section .container .phonewatch .phonetext .features .text #voice {
+    padding-right: 180px;
+    font-weight: 700;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+section .container .phonewatch .phonetext .features .text #connect {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-right: 130px;
+    font-weight: 700;
+}
+section .container .phonewatch .phonetext .features .text #anytask {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-right: 200px;
+    font-weight: 700;
+}
+section .container .phonewatch .phonetext .features .text p{
+    color: #8D8698;
+    margin-top: 10px;
+    padding-right: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section .container .phonewatch .phonetext .features .icon{
+    color: #7d1eff;
+    position: relative;
+    right: 200px;
+    top: 80px;
+    font-size: 30px;
+}
+section .container .phonewatch .phonetext .features .text{
+    padding-top: 50px;
+}
+section .colorswatches .container .colorwimg img {
+    position: relative;
+    bottom: 730px;
+    left: 350px;
+}
+section .colorswatches .container .colorwtext {
+    position: relative;
+    bottom:  1470px;
+    right:200px;
+    z-index: 4;
+}
+section .colorswatches .container .colorwtext .title{
+    padding-bottom: 50px;
+}
+section .colorswatches .container .colorwtext .title h3{
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #aca3ba;
+    padding-right: 250px;
+}
+section .colorswatches .container .colorwtext .title h1{
+    line-height: 60px;
+    font-size: 48px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: -5px;
+    padding-right: 70px;
+    color: #3f3849;
+}
+section .colorswatches .container .colorwtext .features .text h3{
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #3f3f3f;
+}
+
+section .colorswatches .container .colorwtext .features .text p{
+    color: #8D8698;
+    margin-top: 10px;
+    padding-right: 238px;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section .colorswatches .container .colorwtext .features .text #increase{
+    padding-right: 244px;
+    font-weight: 700;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+section .colorswatches .container .colorwtext .features .text #battery{
+    padding-right: 300px;
+    font-weight: 700;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+section .colorswatches .container .colorwtext .features .text #display{
+    padding-right: 270px;
+    font-weight: 700;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+section .colorswatches .container .colorwtext .features .text .icon{
+    color: #3f3f3f;
+    position: relative;
+    right: 205px;
+    top: 24px;
+    font-size: 15px;
+}
+section .colorswatches .container .features  .valuation{
+    width: 100%;
+    background-color: rgb(244, 242, 242);
+    border-radius: 10px;
+}
+section .colorswatches .container .features .row{
+    height: 50px;
+    width: 39%;
+  position: relative;
+  left: 423px;
+}
+section .colorswatches .container .features .valuenumber{
+    font-weight: bold;
+    position: relative;
+    left: 210px;
+    padding: 10px 0;
+    color: #3f3849;
+}
+section .colorswatches .container .features .valuation #firstline{
+    width: 30%;    
+    height: 6px;
+    background-color: #7d1eff;
+    border-radius: 10px;
+}
+section .colorswatches .container .features .valuation #secondline{
+    width: 80%;    
+    height: 6px;
+    background-color: #7d1eff;
+    border-radius: 10px;
+}
+section .colorswatches .container .features .valuation #endline{
+    width: 60%;    
+    height: 6px;
+    background-color: #7d1eff;
+    border-radius: 10px;
+}
+
+#aboutwatch{
+    
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/assets/watchback.jpg);
+ 
+    overflow: hidden;
+}
+ 
+#aboutwatch .title{
+    margin-top: 150px;
+    margin-bottom: 70px;
+    padding-left: 260px;
+}
+
+#aboutwatch .title h3{
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #aca3ba;
+    padding-right: 250px;
+}
+#aboutwatch .title h1{
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 900;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#aboutwatch .title #colorlyh1 {
+    color: #7d1eff;
+}
+#aboutwatch .title #between{
+    margin-bottom: 30px;
+    color: #3f3849;
+}
+#aboutwatch .title p{
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: #3f3849;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+#aboutwatch .youtubevideo{
+    width: 1000px;
+    height: 563px;
+    margin: 0 auto;
+    background-image:url(/assets/videoimage.jpg);
+}
+#aboutwatch .youtubevideo .icon i{
+    background-color: white;
+    color: #8D8698;
+    padding: 25px;
+    border-radius: 50%;
+    font-size: 15px;
+    margin: 24% 45%;
+}
+#aboutwatch .youtubevideo .icon i:hover{
+    background-color:#7d1eff;
+}
+#aboutwatch{
+    height: 1200px;
+}
+#adjustable{
+    background-color: #363636 ;
+    height: 1080px;
+    
+}
+
+#adjustable .title{
+    text-align: center;
+    padding-top: 55px;
+    padding-bottom: 60px;
+}
+
+#adjustable .title h3{
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #adacac;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#adjustable .title h1{
+    line-height: 60px;
+    font-weight: 900;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+}
+#adjustable  .button a{
+    background-color: #363636;
+    border: 1px solid white;
+    padding: 18px 35px;
+    border-radius: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+   position: relative;
+   top: 60px;
+   left: 800px;
+   
+   
+}
+
+#adjustable .kindwatch {
+  display: flex;
+  margin: 50px;
+  margin-right: 0px;
+}
+#adjustable .kindwatch .watches-kind{
+    width: 100%;
+   
+}
+#adjustable .kindwatch .watches-kind p{
+    color: #ffffff;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    font-size: 13px;
+}
+#adjustable .kindwatch .watches-kind #mint{
+    color: #99ffee;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#adjustable .kindwatch .watches-kind #purple{
+    color: #cea9ff;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#adjustable .kindwatch .watches-kind #golden{
+    color: #f3b560;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#adjustable .kindwatch .watches-kind .between2{
+    height: 20px;
+}
+#adjustable .kindwatch .watches-kind span{
+    font-size: 21px;
+    font-weight: 700;
+    color: #ffffff;
+}
+#adjustable .kindwatch .watches-kind .text{
+    position: relative;
+    top: 200px;
+    text-align: center;
+}
+#Reviews{
+    padding-top: 140px;
+    padding-bottom: 100px;
+    background-image: url(/assets/customerbackground.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#Reviews .title h1{
+    text-align: center;
+    font-size: 45px;
+    line-height: 60px;
+    font-weight: 900;
+    color: #3f3849;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Reviews .customer {
+    text-align: center;
+    margin-top: 70px;
+}
+#Reviews .customersay{
+    text-align: center;
+}
+#Reviews .customersay .text{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #8d8698;
+    font-weight: 400;
+    line-height: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Reviews .customersay .name h3{
+    color: #7d1eff;
+    font-size: 16px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+#Reviews .customersay .icon-right{
+    font-size: 34px;
+    color: #8d8699;
+}
+#Reviews .customer .icon-lr i{
+   font-size: 30px;
+   color: #8d8699;
+} 
+#Reviews .customer .icon-lr #left{
+    position: relative;
+    right: 170px;
+    top: 65px;
+}
+#Reviews .customer .icon-lr #right{
+    position: relative;
+    left: 170px;
+    bottom: 60px;
+}
+#Reviews .social {
+    margin-top: 140px;
+    background-color: #7d1eff ;
+    height: 170px;
+    text-align: center;    
+}
+
+#Reviews .social i{
+    padding-top: 75px;
+    padding-left: 50px;
+    font-size: 27px;
+    color: #8d8699;
+}
+footer{
+    background-color:#2b2b2b;
+    height: 500px;
+}
+footer .foter{
+    display: flex;
+    justify-content: space-evenly;
+
+    padding-top:50px ;
+    
+}
+
+footer  .foter .javelincard .javelininfo{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    line-height: 25px;
+    font-size: 16px;
+    color: #a1a1a1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer .foter  .javelincard .cards {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+footer .foter  .javelincard .cards i{
+ padding-right: 20px;
+}
+footer .foter  .javelincard .secure i{
+    color: #a1a1a1;
+    font-size: 12px;
+}
+footer .foter  .javelincard .secure{
+    color: #a1a1a1;
+}
+footer .foter  .bestexperience h3{
+    padding-bottom: 20px;
+    font-weight: 700;
+    color: #f4f4f4;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer .foter   li{
+    list-style: none;
+    padding: 10px;
+    font-size: 16px;
+    color: #a1a1a1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer .foter  .company h3{
+    padding-bottom: 20px;
+    font-weight: 700;
+    color: #f4f4f4;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer .copyright p{
+    text-align: center;
+    line-height: 28px;
+    font-size: 16px;
+    color: #a1a1a1;
+    position: relative;
+    top: 100px;    
+}
+footer hr{
+    margin-top: 60px;
+}
