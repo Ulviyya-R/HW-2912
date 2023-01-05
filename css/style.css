@@ -41,7 +41,8 @@ header .top {
     position: relative;
     height: 100vh;
     background-color: #2b2b2b;
-
+    transition-duration:unset;
+    transition-duration: 3s;
 }
 
 
@@ -220,7 +221,7 @@ header .selector {
    right: 20px;
    
    list-style: none;
-   font-size: 40px;
+   font-size: 40;
    border: 12px black;
    background-color: white;
    text-align: center;
@@ -230,9 +231,9 @@ header .selector {
    }
    
    header .selector i {
-       font-size: 33px;
+       font-size: 23px;
        color: #9396a5 !important;
-       padding: 10px;
+       padding: 14px;
        border-bottom: 3px solid #f1f3fc;
    }
 
@@ -267,11 +268,11 @@ section .container {
     padding: 200px;
     text-align: center;
 }
-section .colorswatches .container {
+#Gallery .colorswatches .container {
     height: 10px;
 }
 
-section .container .watchtext h2 {
+#Gallery .container .watchtext h2 {
     color: #B2AABF;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 15px;
@@ -279,17 +280,17 @@ section .container .watchtext h2 {
     font-weight: 700;
 }
 
-section .container .watchtext span {
+#Gallery .container .watchtext span {
     font-size: 48px;
     line-height: 60px;
     font-weight: 900;
     font-family:Arial, Helvetica, sans-serif;
     color: #3f3849;
 }
-section .container .watchtext #colortext {
+#Gallery.container .watchtext #colortext {
     color: #7d1eff !important;
 }
-section .container .watchtext p{
+#Gallery .container .watchtext p{
     font-family: Arial, Helvetica, sans-serif;
     line-height: 38px;
     font-size: 18px;
@@ -297,39 +298,39 @@ section .container .watchtext p{
     padding: 40px;
 }
 
-section .container .watchimage {
+#Gallery .container .watchimage {
 
     display: flex;
     justify-content: center;
 }
 
-section .container .watchimage img {
+#Gallery .container .watchimage img {
     margin-top: 50px;
     width: 400px;
     padding: 10px;
 }
 
-section .container .watchimage .blackw1 img:hover{
+#Gallery .container .watchimage .blackw1 img:hover{
     zoom: 110%;
 }
-section .container .watchimage .blackw2 img:hover{
+#Gallery .container .watchimage .blackw2 img:hover{
     zoom: 110%;
 }
-section .container .watchimage .blackw3 img:hover{
+#Gallery .container .watchimage .blackw3 img:hover{
     zoom: 110%;
     
 }
-section .container .phonewatch .phoneimage img{
+#Features .container .phonewatch .phoneimage img{
     position: relative;
     right: 250px;
 }
-section .container .phonewatch .phonetext{
+#Features .container .phonewatch .phonetext{
     position: relative;
     bottom:  660px;
     left: 300px;
     z-index: 4;
 }
-section .container .phonewatch .phonetext .title h3{
+#Features .container .phonewatch .phonetext .title h3{
     font-size: 14px;
     line-height: 30px;
     font-weight: 700;
@@ -337,7 +338,7 @@ section .container .phonewatch .phonetext .title h3{
     color: #aca3ba;
     padding-right: 290px;
 }
-section .container .phonewatch .phonetext .title h1{
+#Features .container .phonewatch .phonetext .title h1{
     line-height: 60px;
     font-size: 48px;
     font-weight: 900;
@@ -347,52 +348,52 @@ section .container .phonewatch .phonetext .title h1{
     color: #3f3849;
 }
 
-section .container .phonewatch .phonetext .features .text #voice {
+#Features .container .phonewatch .phonetext .features .text #voice {
     padding-right: 180px;
     font-weight: 700;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-section .container .phonewatch .phonetext .features .text #connect {
+#Features .container .phonewatch .phonetext .features .text #connect {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-right: 130px;
     font-weight: 700;
 }
-section .container .phonewatch .phonetext .features .text #anytask {
+#Features .container .phonewatch .phonetext .features .text #anytask {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-right: 200px;
     font-weight: 700;
 }
-section .container .phonewatch .phonetext .features .text p{
+#Features .container .phonewatch .phonetext .features .text p{
     color: #8D8698;
     margin-top: 10px;
     padding-right: 40px;
     font-family: Arial, Helvetica, sans-serif;
 }
-section .container .phonewatch .phonetext .features .icon{
+#Features .container .phonewatch .phonetext .features .icon{
     color: #7d1eff;
     position: relative;
     right: 200px;
     top: 80px;
     font-size: 30px;
 }
-section .container .phonewatch .phonetext .features .text{
+#Features .container .phonewatch .phonetext .features .text{
     padding-top: 50px;
 }
-section .colorswatches .container .colorwimg img {
+#Features .colorswatches .container .colorwimg img {
     position: relative;
     bottom: 730px;
     left: 350px;
 }
-section .colorswatches .container .colorwtext {
+#Features .colorswatches .container .colorwtext {
     position: relative;
     bottom:  1470px;
     right:200px;
     z-index: 4;
 }
-section .colorswatches .container .colorwtext .title{
+#Features .colorswatches .container .colorwtext .title{
     padding-bottom: 50px;
 }
-section .colorswatches .container .colorwtext .title h3{
+#Features .colorswatches .container .colorwtext .title h3{
     font-size: 14px;
     line-height: 30px;
     font-weight: 700;
@@ -400,7 +401,7 @@ section .colorswatches .container .colorwtext .title h3{
     color: #aca3ba;
     padding-right: 250px;
 }
-section .colorswatches .container .colorwtext .title h1{
+#Features .colorswatches .container .colorwtext .title h1{
     line-height: 60px;
     font-size: 48px;
     font-weight: 900;
@@ -409,73 +410,73 @@ section .colorswatches .container .colorwtext .title h1{
     padding-right: 70px;
     color: #3f3849;
 }
-section .colorswatches .container .colorwtext .features .text h3{
+#Features .colorswatches .container .colorwtext .features .text h3{
     font-size: 18px;
     line-height: 30px;
     font-weight: 700;
     color: #3f3f3f;
 }
 
-section .colorswatches .container .colorwtext .features .text p{
+#Features .colorswatches .container .colorwtext .features .text p{
     color: #8D8698;
     margin-top: 10px;
     padding-right: 238px;
     line-height: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
-section .colorswatches .container .colorwtext .features .text #increase{
+#Features .colorswatches .container .colorwtext .features .text #increase{
     padding-right: 244px;
     font-weight: 700;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-section .colorswatches .container .colorwtext .features .text #battery{
+#Features .colorswatches .container .colorwtext .features .text #battery{
     padding-right: 300px;
     font-weight: 700;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-section .colorswatches .container .colorwtext .features .text #display{
+#Features .colorswatches .container .colorwtext .features .text #display{
     padding-right: 270px;
     font-weight: 700;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-section .colorswatches .container .colorwtext .features .text .icon{
+#Features .colorswatches .container .colorwtext .features .text .icon{
     color: #3f3f3f;
     position: relative;
     right: 205px;
     top: 24px;
     font-size: 15px;
 }
-section .colorswatches .container .features  .valuation{
+#Features .colorswatches .container .features  .valuation{
     width: 100%;
     background-color: rgb(244, 242, 242);
     border-radius: 10px;
 }
-section .colorswatches .container .features .row{
+#Features .colorswatches .container .features .row{
     height: 50px;
     width: 39%;
   position: relative;
   left: 423px;
 }
-section .colorswatches .container .features .valuenumber{
+#Features .colorswatches .container .features .valuenumber{
     font-weight: bold;
     position: relative;
     left: 210px;
     padding: 10px 0;
     color: #3f3849;
 }
-section .colorswatches .container .features .valuation #firstline{
+#Features .colorswatches .container .features .valuation #firstline{
     width: 30%;    
     height: 6px;
     background-color: #7d1eff;
     border-radius: 10px;
 }
-section .colorswatches .container .features .valuation #secondline{
+#Features .colorswatches .container .features .valuation #secondline{
     width: 80%;    
     height: 6px;
     background-color: #7d1eff;
     border-radius: 10px;
 }
-section .colorswatches .container .features .valuation #endline{
+#Features .colorswatches .container .features .valuation #endline{
     width: 60%;    
     height: 6px;
     background-color: #7d1eff;
@@ -583,7 +584,7 @@ section .colorswatches .container .features .valuation #endline{
     font-family: Arial, Helvetica, sans-serif;
    position: relative;
    top: 60px;
-   left: 800px;
+   left: 715px;
    
    
 }
